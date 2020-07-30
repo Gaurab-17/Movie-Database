@@ -1,0 +1,21 @@
+#searchText{
+	border: 2px solid #fff;
+    height: 40px;
+    width: 900px;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:950px){
+  #movies .col-md-3 .well{
+    height: 360px;
+  }
+
+  #movies .col-md-3 img{
+    height:280px;
+  }
+}
